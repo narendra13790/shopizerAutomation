@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DemoTestSuite]">
+  <parameter name="SortByName" value="Name"/>
+  <parameter name="SortByPrice" value="Price"/>
+  <parameter name="DropDownName" value="SORTFILTER"/>
+  <test name="ComputerBooksPageAllTestCaes(failed)">
+    <parameter name="SortByName" value="Name"/>
+    <parameter name="SortByPrice" value="Price"/>
+    <parameter name="DropDownName" value="SORTFILTER"/>
+    <classes>
+      <class name="shopizer.PageSteps.ComputerBooksPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="TC_005_Verify_publisherLink" invocation-numbers="0"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- shopizer.PageSteps.ComputerBooksPageTest -->
+    </classes>
+  </test> <!-- ComputerBooksPageAllTestCaes(failed) -->
+</suite> <!-- Failed suite [DemoTestSuite] -->

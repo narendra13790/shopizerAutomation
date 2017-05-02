@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--default  : target name which is to be run   -->
+<project name="shopizer_automation" default="HtmlReport" basedir=".">
+	
+    
+	<!-- Class-Path -->
+	<path id="testngjar">
+		<fileset dir="lib" includes="*.jar">
+		</fileset>
+	</path>
+	<target name="HtmlReport" >
+		<xslt in="${basedir}/target/surefire-reports/testng-results.xml" style="${basedir}/testng-results.xsl" out="${basedir}/HTMLReport/index.html">
+			<param expression="${basedir}/HTMLReport/" name="testNgXslt.outputDir" />
+			<param expression="true" name="testNgXslt.sortTestCaseLinks" />
+			<param expression="FAIL,SKIP,PASS,CONF,BY_CLASS" name="testNgXslt.testDetailsFilter" />
+			<param expression="true" name="testNgXslt.showRuntimeTotals" />
+			<classpath refid="testngjar">
+			</classpath>
+		</xslt>
+	</target>
+	
+	
+
+</project>

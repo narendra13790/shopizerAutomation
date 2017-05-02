@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="shopizer.PageSteps.ComputerBooksPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="TC_001_Verify_Search_ByName" invocation-numbers="0"/>
+          <include name="TC_002_Verify_Search_ByPrice" invocation-numbers="0"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- shopizer.PageSteps.ComputerBooksPageTest -->
+      <class name="shopizer.PageSteps.BusinessPageTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- shopizer.PageSteps.BusinessPageTest -->
+      <class name="shopizer.PageSteps.RegistrationTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- shopizer.PageSteps.RegistrationTest -->
+      <class name="shopizer.PageSteps.OrderReviewTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- shopizer.PageSteps.OrderReviewTest -->
+      <class name="shopizer.PageSteps.VideoPageTest">
+        <methods>
+          <include name="closeBrowserName"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- shopizer.PageSteps.VideoPageTest -->
+      <class name="shopizer.PageSteps.ContactPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- shopizer.PageSteps.ContactPageTest -->
+      <class name="shopizer.PageSteps.LoginSteps">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- shopizer.PageSteps.LoginSteps -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

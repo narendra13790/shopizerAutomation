@@ -1,0 +1,21 @@
+#-------------------------------------
+# Business books Page
+# ...........Menu and Sub menus.........
+bbPage.MenuLink=XPATH:=.//*[@id="topMain"]/li[2]/a/span
+bbPage.BusinessMenuHeader=XPATH:=//*[@id="mainContent"]/div[1]/p
+#------------------------------
+bbPage.SortFilterDropDown =XPATH:=.//*[@id='filter']
+bbPage.MinPriceField =XPATH:=.//*[@id='priceFilterMinimum']
+bbPage.MaxPriceField =XPATH:=.//*[@id='priceFilterMaximum']
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" total="19" passed="17">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="407596" started-at="2017-03-20T09:52:34Z" finished-at="2017-03-20T09:59:22Z">
+    <groups>
+      <group name="SmokeTest">
+        <method signature="OrderReviewTest.TC_01_Verify_that_item_added_to_cart(java.lang.String)[pri:0, instance:shopizer.PageSteps.OrderReviewTest@5df778c3]" name="TC_01_Verify_that_item_added_to_cart" class="shopizer.PageSteps.OrderReviewTest"/>
+        <method signature="OrderReviewTest.TC_02_VerifyThat_Item_is_removed_from_cart(java.lang.String)[pri:0, instance:shopizer.PageSteps.OrderReviewTest@5df778c3]" name="TC_02_VerifyThat_Item_is_removed_from_cart" class="shopizer.PageSteps.OrderReviewTest"/>
+      </group> <!-- SmokeTest -->
+    </groups>
+    <test name="Default test" duration-ms="407596" started-at="2017-03-20T09:52:34Z" finished-at="2017-03-20T09:59:22Z">
+      <class name="shopizer.PageSteps.BusinessPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:shopizer.PageSteps.BusinessPageTest@10dc7d6]" name="setUp" is-config="true" duration-ms="19212" started-at="2017-03-20T10:52:34Z" finished-at="2017-03-20T10:52:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:shopizer.PageSteps.ComputerBooksPageTest@122d6c22]" name="setUp" is-config="true" duration-ms="15733" started-at="2017-03-20T10:52:53Z" finished-at="2017-03-20T10:53:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:shopizer.PageSteps.ContactPageTest@71a06021]" name="setUp" is-config="true" duration-ms="16385" started-at="2017-03-20T10:53:09Z" finished-at="2017-03-20T10:53:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:shopizer.PageSteps.LoginSteps@80bfdc6]" name="setUp" is-config="true" duration-ms="4415" started-at="2017-03-20T10:53:25Z" finished-at="2017-03-20T10:53:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:shopizer.PageSteps.OrderReviewTest@5df778c3]" name="setUp" is-config="true" duration-ms="16617" started-at="2017-03-20T10:53:30Z" finished-at="2017-03-20T10:53:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:shopizer.PageSteps.RegistrationTest@2f5ac102]" name="setUp" is-config="true" duration-ms="4732" started-at="2017-03-20T10:53:46Z" finished-at="2017-03-20T10:53:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:shopizer.PageSteps.VideoPageTest@895416d]" name="setUp" is-config="true" duration-ms="5166" started-at="2017-03-20T10:53:51Z" finished-at="2017-03-20T10:53:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TC_002_Verify_Search_ByPrice(java.lang.String, java.lang.String)[pri:0, instance:shopizer.PageSteps.BusinessPageTest@10dc7d6]" name="TC_002_Verify_Search_ByPrice" duration-ms="2653" started-at="2017-03-20T10:57:38Z" finished-at="2017-03-20T10:57:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SORTFILTER]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Price]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_002_Verify_Search_ByPrice -->
+        <test-method status="PASS" signature="TC_003_Verify_Search_By_entering_min_max_price(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:shopizer.PageSteps.BusinessPageTest@10dc7d6]" name="TC_003_Verify_Search_By_entering_min_max_price" duration-ms="24860" started-at="2017-03-20T10:57:41Z" finished-at="2017-03-20T10:58:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SORTFILTER]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Price]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[40]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_003_Verify_Search_By_entering_min_max_price -->
+        <test-method status="PASS" signature="TC_004_Verify_ItemOrder_Completion(java.lang.String, java.lang.String)[pri:0, instance:shopizer.PageSteps.BusinessPageTest@10dc7d6]" name="TC_004_Verify_ItemOrder_Completion" duration-ms="44982" started-at="2017-03-20T10:58:06Z" finished-at="2017-03-20T10:58:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[The Big Switch]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1001]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_004_Verify_ItemOrder_Completion -->
+        <test-method status="PASS" signature="TC_005_Verify_publisherLink(java.lang.String)[pri:0, instance:shopizer.PageSteps.BusinessPageTest@10dc7d6]" name="TC_005_Verify_publisherLink" duration-ms="1834" started-at="2017-03-20T10:58:51Z" finished-at="2017-03-20T10:58:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Novells publishing]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_005_Verify_publisherLink -->
+        <test-method status="PASS" signature="TC_006_Verify_AllPublisherLink()[pri:0, instance:shopizer.PageSteps.BusinessPageTest@10dc7d6]" name="TC_006_Verify_AllPublisherLink" duration-ms="640" started-at="2017-03-20T10:58:53Z" finished-at="2017-03-20T10:58:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_006_Verify_AllPublisherLink -->
+        <test-method status="PASS" signature="TC_007_Verify_facebook_share_link(java.lang.String)[pri:0, instance:shopizer.PageSteps.BusinessPageTest@10dc7d6]" name="TC_007_Verify_facebook_share_link" duration-ms="12048" started-at="2017-03-20T10:58:53Z" finished-at="2017-03-20T10:59:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[The Big Switch]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_007_Verify_facebook_share_link -->
+        <test-method status="PASS" signature="TC_01_Verify_Book_Search_ByName(java.lang.String, java.lang.String)[pri:0, instance:shopizer.PageSteps.BusinessPageTest@10dc7d6]" name="TC_01_Verify_Book_Search_ByName" duration-ms="118" started-at="2017-03-20T10:59:05Z" finished-at="2017-03-20T10:59:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SORTFILTER]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Name]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_Verify_Book_Search_ByName -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:shopizer.PageSteps.BusinessPageTest@10dc7d6]" name="closeBrowser" is-config="true" duration-ms="333" started-at="2017-03-20T10:59:06Z" finished-at="2017-03-20T10:59:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:shopizer.PageSteps.ComputerBooksPageTest@122d6c22]" name="closeDriver" is-config="true" duration-ms="10165" started-at="2017-03-20T10:59:06Z" finished-at="2017-03-20T10:59:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:shopizer.PageSteps.ContactPageTest@71a06021]" name="closeBrowser" is-config="true" duration-ms="5125" started-at="2017-03-20T10:59:16Z" finished-at="2017-03-20T10:59:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:shopizer.PageSteps.LoginSteps@80bfdc6]" name="closeBrowser" is-config="true" duration-ms="82" started-at="2017-03-20T10:59:21Z" finished-at="2017-03-20T10:59:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:shopizer.PageSteps.OrderReviewTest@5df778c3]" name="closeBrowser" is-config="true" duration-ms="96" started-at="2017-03-20T10:59:21Z" finished-at="2017-03-20T10:59:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:shopizer.PageSteps.RegistrationTest@2f5ac102]" name="closeBrowser" is-config="true" duration-ms="87" started-at="2017-03-20T10:59:21Z" finished-at="2017-03-20T10:59:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="closeBrowserName()[pri:0, instance:shopizer.PageSteps.VideoPageTest@895416d]" name="closeBrowserName" is-config="true" duration-ms="120" started-at="2017-03-20T10:59:21Z" finished-at="2017-03-20T10:59:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowserName -->
+      </class> <!-- shopizer.PageSteps.BusinessPageTest -->
+      <class name="shopizer.PageSteps.RegistrationTest">
+        <test-method status="PASS" signature="userRegistration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:shopizer.PageSteps.RegistrationTest@2f5ac102]" name="userRegistration" duration-ms="8961" started-at="2017-03-20T10:56:05Z" data-provider="newUserData" finished-at="2017-03-20T10:56:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gill]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sing]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[United States]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Iowa]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[gill16]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[amir@abc.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[gill16]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegistration -->
+      </class> <!-- shopizer.PageSteps.RegistrationTest -->
+      <class name="shopizer.PageSteps.LoginSteps">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:shopizer.PageSteps.LoginSteps@80bfdc6]" name="loginTest" duration-ms="11963" started-at="2017-03-20T10:56:41Z" finished-at="2017-03-20T10:56:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- shopizer.PageSteps.LoginSteps -->
+      <class name="shopizer.PageSteps.ComputerBooksPageTest">
+        <test-method status="FAIL" signature="TC_001_Verify_Search_ByName(java.lang.String, java.lang.String)[pri:0, instance:shopizer.PageSteps.ComputerBooksPageTest@122d6c22]" name="TC_001_Verify_Search_ByName" duration-ms="3349" started-at="2017-03-20T10:54:46Z" finished-at="2017-03-20T10:54:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SORTFILTER]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Name]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at shopizer.PageSteps.ComputerBooksPageTest.TC_001_Verify_Search_ByName(ComputerBooksPageTest.java:66)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:882)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1189)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_001_Verify_Search_ByName -->
+        <test-method status="FAIL" signature="TC_002_Verify_Search_ByPrice(java.lang.String, java.lang.String)[pri:0, instance:shopizer.PageSteps.ComputerBooksPageTest@122d6c22]" name="TC_002_Verify_Search_ByPrice" duration-ms="2999" started-at="2017-03-20T10:54:50Z" finished-at="2017-03-20T10:54:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SORTFILTER]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Price]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at shopizer.PageSteps.ComputerBooksPageTest.TC_002_Verify_Search_ByPrice(ComputerBooksPageTest.java:87)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:882)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1189)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_002_Verify_Search_ByPrice -->
+        <test-method status="PASS" signature="TC_003_Verify_Search_By_entering_min_max_price(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:shopizer.PageSteps.ComputerBooksPageTest@122d6c22]" name="TC_003_Verify_Search_By_entering_min_max_price" duration-ms="25567" started-at="2017-03-20T10:54:53Z" finished-at="2017-03-20T10:55:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SORTFILTER]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Price]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[40]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_003_Verify_Search_By_entering_min_max_price -->
+        <test-method status="PASS" signature="TC_004_Verify_ItemOrder_Completion(java.lang.String, java.lang.String)[pri:0, instance:shopizer.PageSteps.ComputerBooksPageTest@122d6c22]" name="TC_004_Verify_ItemOrder_Completion" duration-ms="44298" started-at="2017-03-20T10:55:18Z" finished-at="2017-03-20T10:56:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Node Web Development]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1001]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_004_Verify_ItemOrder_Completion -->
+        <test-method status="PASS" signature="TC_005_Verify_publisherLink(java.lang.String)[pri:0, instance:shopizer.PageSteps.ComputerBooksPageTest@122d6c22]" name="TC_005_Verify_publisherLink" duration-ms="2045" started-at="2017-03-20T10:56:02Z" finished-at="2017-03-20T10:56:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sams]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_005_Verify_publisherLink -->
+        <test-method status="PASS" signature="TC_006_Verify_AllPublisherLink()[pri:0, instance:shopizer.PageSteps.ComputerBooksPageTest@122d6c22]" name="TC_006_Verify_AllPublisherLink" duration-ms="760" started-at="2017-03-20T10:56:05Z" finished-at="2017-03-20T10:56:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_006_Verify_AllPublisherLink -->
+      </class> <!-- shopizer.PageSteps.ComputerBooksPageTest -->
+      <class name="shopizer.PageSteps.VideoPageTest">
+        <test-method status="PASS" signature="TC_001_verify_video_streaming()[pri:0, instance:shopizer.PageSteps.VideoPageTest@895416d]" name="TC_001_verify_video_streaming" duration-ms="26526" started-at="2017-03-20T10:56:14Z" finished-at="2017-03-20T10:56:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_001_verify_video_streaming -->
+      </class> <!-- shopizer.PageSteps.VideoPageTest -->
+      <class name="shopizer.PageSteps.ContactPageTest">
+        <test-method status="PASS" signature="TC_001_Verify_That_UserCan_sent_query_on_ContactUs_Page()[pri:0, instance:shopizer.PageSteps.ContactPageTest@71a06021]" name="TC_001_Verify_That_UserCan_sent_query_on_ContactUs_Page" duration-ms="45536" started-at="2017-03-20T10:56:53Z" finished-at="2017-03-20T10:57:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_001_Verify_That_UserCan_sent_query_on_ContactUs_Page -->
+      </class> <!-- shopizer.PageSteps.ContactPageTest -->
+      <class name="shopizer.PageSteps.OrderReviewTest">
+        <test-method status="PASS" signature="TC_01_Verify_that_item_added_to_cart(java.lang.String)[pri:0, instance:shopizer.PageSteps.OrderReviewTest@5df778c3]" name="TC_01_Verify_that_item_added_to_cart" duration-ms="23461" started-at="2017-03-20T10:53:56Z" finished-at="2017-03-20T10:54:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Node Web Development]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_Verify_that_item_added_to_cart -->
+        <test-method status="PASS" signature="TC_02_VerifyThat_Item_is_removed_from_cart(java.lang.String)[pri:0, instance:shopizer.PageSteps.OrderReviewTest@5df778c3]" name="TC_02_VerifyThat_Item_is_removed_from_cart" duration-ms="26518" started-at="2017-03-20T10:54:20Z" finished-at="2017-03-20T10:54:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Node Web Development]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_02_VerifyThat_Item_is_removed_from_cart -->
+      </class> <!-- shopizer.PageSteps.OrderReviewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

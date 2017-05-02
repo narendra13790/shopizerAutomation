@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DemoTestSuite">
+	<!-- <listeners> <listener class-name=""></listener> <listener class-name=""></listener> 
+		</listeners> -->
+
+	<test verbose="2" name="LoginTest">
+		<classes>
+			<class name="shopizer.PageSteps.LoginSteps" />
+		</classes>
+	</test>
+	 
+
+	<test verbose="2" name="ComputerBooksPageAllTestCases">
+		<parameter name="SortByName" value="Name"></parameter>
+		<parameter name="SortByPrice" value="Price"></parameter>
+
+		<parameter name="DropDownName" value="SORTFILTER"></parameter>
+
+		<classes>
+			<class name="shopizer.PageSteps.ComputerBooksPageTest">
+			</class>
+		</classes>
+	</test>
+	
+	<test verbose="2" name="BusinessBookPageAllTestCases">
+
+		<classes>
+			<class name="shopizer.PageSteps.BusinessPageTest">
+			
+			</class>
+		</classes>
+	</test>
+
+	<test verbose="2" name="ContactPageTestPageAllTestCases">
+
+		<classes>
+			<class name="shopizer.PageSteps.ContactPageTest">
+			
+			</class>
+		</classes>
+	</test>
+	<test verbose="2" name="OrderReviewTest">
+
+		<classes>
+			<class name="shopizer.PageSteps.OrderReviewTest">
+			
+			</class>
+		</classes>
+	</test>
+	
+	<test verbose="2" name="VideoStreaming">
+
+		<classes>
+			<class name="shopizer.PageSteps.VideoPageTest">
+			
+			</class>
+		</classes>
+	</test>
+	
+	<!--<test verbose="2" name="RegistrationTest" >
+
+		<classes>
+			<class name="shopizer.PageSteps.RegistrationTest" />
+		</classes>
+	</test> -->
+
+
+
+</suite> 

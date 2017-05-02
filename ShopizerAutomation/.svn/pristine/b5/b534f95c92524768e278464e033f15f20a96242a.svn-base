@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [DemoTestSuite]">
+  <test name="LoginTest(failed)">
+    <classes>
+      <class name="shopizer.PageSteps.LoginSteps">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="setUp"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- shopizer.PageSteps.LoginSteps -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+</suite> <!-- Failed suite [DemoTestSuite] -->

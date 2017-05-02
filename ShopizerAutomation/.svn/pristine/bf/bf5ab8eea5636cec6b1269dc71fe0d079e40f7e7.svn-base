@@ -1,0 +1,42 @@
+#-------------------------------------
+# Computer books Page
+# ...........Menu and Sub menus.........
+cpBooksPage.MenuLink=XPATH:=.//*[@id='topMain']/li[1]/a/span
+cpBooksPage.ComputerBookMenu= XPATH:=.//div[@class='mega-menu-items']/h4/a[contains(text(),'Computer Books')]
+#cpBooksPage.TechnologySubMenu= XPATH:=.//a[text()='Technology']
+cpBooksPage.TechnologySubMenu= LINKTEXT:=Technology
+#cpBooksPage.WebSubMenu=XPATH:=//a[text()='Web']
+cpBooksPage.WebSubMenu=LINKTEXT:=Web
+#cpBooksPage.HomeLink=XPATH:=.//*[text()='Home']
+cpBooksPage.HomeLink=LINKTEXT:=Home
+cpBooksPage.ComputerBooksLink=XPATH:=.//ol[@class='breadcrumb']/li[2]/a
+cpBooksPage.ComputerBooksMenuHeader=XPATH:=.//*[@id='mainContent']/header/div[1]/div/h2
+#------------------------------------------------------------------------------
+
+
+#-------------------------------
+# ComputerBooks Page controls
+#------------------------------
+cpBooksPage.SortFilterDropDown =XPATH:=.//*[@id='filter']
+cpBooksPage.MinPriceField =XPATH:=.//*[@id='priceFilterMinimum']
+cpBooksPage.MaxPriceField =XPATH:=.//*[@id='priceFilterMaximum']
+#cpBooksPage.MinPriceField =ID:=priceFilterMinimum
+#cpBooksPage.MaxPriceField =ID:=priceFilterMaximum
+cpBooksPage.ProductListContainer=ID:=productsContainer
+cpBooksPage.AllProductDetails=XPATH:=.//div[@class='product-details']
+cpBooksPage.ItemNames=XPATH:=.//h3[@itemprop='name']
+cpBooksPage.ItemPrices=XPATH:=.//h4/span[@itemprop='price']
+cpBooksPage.priceFilterMinimum=ID:=priceFilterMinimum
+cpBooksPage.priceFilterMaximum=ID:=priceFilterMaximum
+
+cpBooksPage.ItemImage= XPATH:=.//div[contains(@item-name,'#itemName#')]/div/div/a
+
+
+
+
+
+
+
+
+
+

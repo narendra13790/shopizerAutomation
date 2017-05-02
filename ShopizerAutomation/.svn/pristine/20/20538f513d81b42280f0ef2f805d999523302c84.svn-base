@@ -1,0 +1,92 @@
+# common objects
+#                    key = value
+commonObject.SignLink = XPATH:=.//*[@id='customerAccount']/button
+commonObject.LoginUserName = ID:=signin_userName
+commonObject.LoginPassword = XPATH:=.//*[@id='signin_password']
+commonObject.LoginButton = ID:=login-button
+commonObject.AccountButton= ID:=customerAccount
+
+
+
+#Registration Page Objects
+commonObject.RegLink=ID:=registerLink
+commonObject.firstName=ID:=firstName
+commonObject.lastName=ID:=lastName
+
+commonObject.username=ID:=userName
+commonObject.email=NAME:=emailAddress
+commonObject.password=ID:=password
+commonObject.passwordAgain=ID:=passwordAgain
+
+commonObject.genderDropDown=ID:=gender
+commonObject.countryDropDown=ID:=registration_country
+commonObject.provinceDropDown=ID:=customer_zones
+commonObject.submitRegButton=ID:=submitRegistration
+
+#  review cart /  check out page/ order confirmation pages objects
+
+commonObject.OpenCartButton=ID:=open-cart
+commonObject.TotalItemInCart=XPATH:=.//span[@id='miniCartSummary']/font/strong
+commonObject.NoItemInCart=XPATH:=.//span[@id='miniCartSummary']
+commonObject.NoItemInCartMsg=XPATH:=.//*[@id="miniCartDetails"]/li/h4
+commonObject.miniCartDetailsTable=ID:=miniCartDetails
+commonObject.ItemNameinCart=XPATH:=.//td[@class='cart-product' and  contains(text(),'#item#')]
+commonObject.DeleteItemFromCart=XPATH:=.//*[@id="2"]/td[4]/button
+commonObject.CheckoutButton=XPATH:=.//a[text()='Checkout']
+commonObject.PlaceOrderButton= ID:=checkoutButton
+commonObject.QuantityInput=XPATH:=.//input[@name='quantity']
+commonObject.RecalculateButton=XPATH:=.//*[text()='Recalculate']
+commonObjects.PlaceOrder.ItemRemoveButton=XPATH:=.//button/i[contains(text(),'Remove')]
+commonObjects.SubTotal=XPATH:=.//td/strong[contains(text(),'Sub-total')]
+commonObjects.TotalPrice=XPATH:=.//td/strong[contains(text(),'Total')]
+commonObjects.CheckOut.customer.firstName=ID:=customer.firstName
+commonObjects.CheckOut.customer.lastName=ID:=customer.lastName
+commonObjects.CheckOut.customer.emailAddress=ID:=customer.emailAddress
+commonObjects.CheckOut.customer.billing.address=ID:=customer.billing.address
+commonObjects.CheckOut.customer.billing.company=ID:=customer.billing.company
+commonObjects.CheckOut.customer.billing.city=ID:=customer.billing.city
+commonObjects.CheckOut.billingPostalCode=ID:=billingPostalCode
+commonObjects.CheckOut.customerPhone=ID:=customer.billing.phone
+commonObjects.CheckOut.billingStateList=ID:=billingStateList
+commonObjects.CheckOut.customerCountry=ID:=customer.billing.country
+commonObjects.CheckOut.useAddressCheckBox=ID:=useAddress
+commonObjects.Checkout.customerAgreedButton=ID:=customerAgreed
+commonObjects.OrderSubmitButton=ID:=submitOrder
+commonObjects.OrderCompletion.Message=ID:=main-content
+commonObjects.OrderCompletion.Id=XPATH:=.//p[contains(text(),'Your order id is')]
+
+
+# Item /Product Page Objects
+#-----------------------------------------------------------------------------------
+
+commonObjects.ItemInfoPage.AddToCart=XPATH:=.//button[text()='Add to cart']
+
+# Publisher Name List object
+commonObjects.PublisherNameList=XPATH:=//*[@id="shop"]/sidebar/ul[2]
+commonObjects.PublisherNameFindBy=XPATH:=li/a
+
+#----------------------------------------------------------------------
+#FaceBook login Page objects
+commonObjects.iFrame=XPATH:=.//iframe[contains(@src,'https://www.facebook.com/')]
+commonObjects.FaceBookShareButton=ID:=u_0_1
+commonObjects.FaceBookHomeLink=ID:=homelink
+commonObjects.FaceBookLogin.UserId=ID:=email
+commonObjects.FaceBookLogin.Password=ID:=pass
+
+#---------------------------------------------------------------
+
+#-----------------------------------------------------------------
+#footer section links and other objects
+commonObject.AllFooterLinks=XPATH:=//*[@id="footer-section"]/div[2]/div/div[3]/div/ul/li/a
+commonObjects.ContactPage.SubmitButton=ID:=submitContact
+commonObjects.Contact.UserName=ID:=name
+commonObjects.Contact.Email=ID:=email
+commonObjects.Contact.Subject=ID:=subject
+commonObject.Contact.Commments=ID:=comment
+commonObjects.Contact.Message=ID:=store.success
+
+
+
+
+
+
